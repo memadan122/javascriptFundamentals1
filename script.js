@@ -100,7 +100,8 @@ console.log("value of num1 (/=): "+  num1);
 
 console.log((9+2)/7);
 
-
+console.log(5**2);
+console.log(3**3);
 
 //Logical Operators
 // &&, ||, !
