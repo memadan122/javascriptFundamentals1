@@ -1,4 +1,4 @@
-console.log("hello World!");
+/*console.log("hello World!");
 
 //data types in javascripts
 //operator precedence
@@ -51,3 +51,56 @@ console.log(typeof nullVal, typeof myName);
 
 //EVERYTHING IN JAVASCRIPT IS OBJECT.
 
+//Operators in Javascripts +, -, *, /, %,  ++, --, +=, -=, /=, (), **, %=   //Arithemetic Operators
+let num1 = 30;
+let num2 = 20;
+let num3;
+num3 = num1 + num2;
+
+console.log(num3, typeof num3);
+
+num3 = num1 - num2;
+console.log(num3);
+
+num3 = num1 * num2;
+console.log(num3);
+
+num3 = num1 / num2;
+console.log(num3);
+
+console.log("value of num3: " + num3);
+num3++;
+console.log("After the increment: " + num3);
+
+console.log("value of num3: " + num3);
+num3--;
+console.log("After the decrement: " + num3);
+*/
+
+//unary operators  +=, -=, *=, /=
+
+
+num1 = 15;
+num2 = 35;
+
+// num1 = num1 + 10; num1 += 10; both are same
+num1 += 10;
+
+console.log("value of num1 (+=): "+  num1);
+
+num1 -= 7;
+console.log("value of num1 (-=): "+  num1);
+
+num1 *= 7;
+console.log("value of num1 (*=): "+  num1);
+
+num1 /= 7;
+console.log("value of num1 (/=): "+  num1);
+
+
+console.log((9+2)/7);
+
+
+
+//Logical Operators
+// &&, ||, !
