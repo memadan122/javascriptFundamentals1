@@ -1,0 +1,53 @@
+console.log("hello World!");
+
+//data types in javascripts
+//operator precedence
+
+//Dynamic Typed
+
+let countryName = "Nepal"; //camel-case convention e.g.countryName
+console.log(countryName);
+console.log(typeof countryName);
+
+countryName = 88;
+console.log(countryName);
+console.log(typeof countryName);
+
+//let -> we can change later in the runtime
+//const -> we cannot change later in the runtime
+
+const personName = "Madan Bastakoti";
+console.log(personName);
+
+// personName = "Dikshak Poudel";
+
+//data types in javascript
+// 1. Number
+// 2. String
+// 3. Object
+// 4. Boolean
+// 5. List
+// 6. undefined
+// 7. null
+
+const scoreInt = 78;
+const schoolName = "SBS";
+const seeMarks = 798.33;
+const isValid = false;
+const isLoggedin = true;
+
+const nullVal = null;
+let myName;
+
+console.log(
+  typeof scoreInt,
+  typeof schoolName,
+  typeof seeMarks,
+  typeof isValid,
+  typeof isLoggedin
+);
+
+console.log(typeof nullVal, typeof myName);
+
+//EVERYTHING IN JAVASCRIPT IS OBJECT.
+
