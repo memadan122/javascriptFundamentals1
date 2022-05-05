@@ -79,29 +79,54 @@ console.log("After the decrement: " + num3);
 
 //unary operators  +=, -=, *=, /=
 
-
 num1 = 15;
 num2 = 35;
 
 // num1 = num1 + 10; num1 += 10; both are same
 num1 += 10;
 
-console.log("value of num1 (+=): "+  num1);
+console.log("value of num1 (+=): " + num1);
 
 num1 -= 7;
-console.log("value of num1 (-=): "+  num1);
+console.log("value of num1 (-=): " + num1);
 
 num1 *= 7;
-console.log("value of num1 (*=): "+  num1);
+console.log("value of num1 (*=): " + num1);
 
 num1 /= 7;
-console.log("value of num1 (/=): "+  num1);
+console.log("value of num1 (/=): " + num1);
 
+console.log((9 + 2) / 7);
 
-console.log((9+2)/7);
-
-console.log(5**2);
-console.log(3**3);
+console.log(5 ** 2);
+console.log(3 ** 3);
 
 //Logical Operators
 // &&, ||, !
+
+//logical operators
+//&&, ||, !
+//&& and  -->
+//      OP1              OP2            Result
+//  ........        ...........        .........
+//      T               T                  T
+//      T               F                  F
+//      F               T                  F
+//      F               F                  F
+
+//|| or -->
+//      OP1              OP2            Result
+//  ........        ...........        .........
+//      T               T                  T
+//      T               F                  T
+//      F               T                  T
+//      F               F                  F
+
+// ! not -->
+//   True  !    False
+//   False !   True
+
+//examples
+console.log(2 > 3 && 3 < 4);
+
+console.log(2 < 1 || 4 < 6);
